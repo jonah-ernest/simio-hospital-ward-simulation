@@ -2,7 +2,7 @@
 
 This repository contains a discrete-event simulation study modeling patient flow through hospital wards and intensive care units (ICUs). The project analyzes congestion, diversion policies, and capacity utilization using Simio and scenario-based experimentation.
 
-The work was completed in Winter 2023 as part of a Systems Modeling and Simulation course.
+The work was completed in Fall 2022 as part of a Systems Modeling and Simulation course.
 
 ---
 
