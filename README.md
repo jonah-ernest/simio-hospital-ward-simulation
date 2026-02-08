@@ -3,8 +3,6 @@
 Discrete-event simulation of patient flow through a hospital’s acute wards and ICU, built in **Simio**.  
 The project models time-varying arrivals, fitted service-time distributions, and patient routing logic to evaluate congestion and operational policies.
 
-> Team project (group names appear in the original report and model artifacts).
-
 ## What this project does
 - **Input modeling:** estimates arrival patterns by hour/day and fits service-time distributions for acute wards and ICU using Excel + R.
 - **Base model:** simulates patient flow across multiple acute wards and ICU with capacity constraints, waiting, and diversion outcomes.
