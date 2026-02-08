@@ -22,13 +22,13 @@ Multiple experimental scenarios were run to evaluate how changes in capacity, th
 
 ### Files and Folders
 
-- **Hospital_Ward_ICU_Simulation_Report.pdf**  
+- **`Hospital_Ward_ICU_Simulation_Report.pdf`**  
   Final written report describing assumptions, model structure, experiments, and findings.
 
-- **simio/hospital_flow_simio.spfx**  
+- **`simio/hospital_flow_simio.spfx`**  
   The complete Simio project file. Download and open this file in Simio to run the model.
 
-- **simio/project-files/**  
+- **`simio/project-files/`**  
   Extracted project contents included for transparency and version control.
 
 ---
