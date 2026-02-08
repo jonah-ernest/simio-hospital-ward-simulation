@@ -64,7 +64,3 @@ Large experiment output files were excluded from the repository to keep it light
 - Scenario-based experimentation  
 
 ---
-
-## Notes
-
-This repository is intended as a portfolio artifact demonstrating applied simulation modeling a
