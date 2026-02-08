@@ -57,10 +57,11 @@ Large experiment output files were excluded from the repository to keep it light
 
 ---
 
-## Tools
+## Tools and Technologies
 
-- Simio  
-- Statistical distribution fitting  
-- Scenario-based experimentation  
+- Simio (desktop simulation environment)  
+- Experiment Manager and scenario runner  
+- Input modeling and distribution fitting (R and Excel)
+- CSV/XLSX exports for analysis  
 
 ---
