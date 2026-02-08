@@ -1,25 +1,70 @@
-# Hospital Ward Flow Simulation (Simio)
+# Hospital Ward and ICU Flow Simulation
 
-Discrete-event simulation of patient flow through a hospital’s acute wards and ICU, built in **Simio**.  
-The project models time-varying arrivals, fitted service-time distributions, and patient routing logic to evaluate congestion and operational policies.
+This repository contains a discrete-event simulation study modeling patient flow through hospital wards and intensive care units (ICUs). The project analyzes congestion, diversion policies, and capacity utilization using Simio and scenario-based experimentation.
 
-## What this project does
-- **Input modeling:** estimates arrival patterns by hour/day and fits service-time distributions for acute wards and ICU using Excel + R.
-- **Base model:** simulates patient flow across multiple acute wards and ICU with capacity constraints, waiting, and diversion outcomes.
-- **Scenario analysis:** compares alternative operating policies (e.g., ward structure changes and diversion rules).
-- **Policy recommendation:** identifies a diversion threshold policy that reduces congestion and blocked beds (see report).
+The work was completed in Winter 2023 as part of a Systems Modeling and Simulation course.
 
-## Repository contents
-- `report/` – Final write-up with modeling assumptions, experiments, and results.
-- `simio/` – Simio project files (model + experiments).
-- `data/` – Input data used by the model (arrivals + service time datasets).
-- `analysis/` – R scripts used for distribution fitting / parameter estimation (if included).
-- `images/` – Screenshots of the model + key outputs for easy viewing.
+---
 
-## How to run (Simio)
-1. Open the Simio project file in `simio/`.
-2. Confirm file paths to any external data tables in `data/` (if your Simio file uses linked tables).
-3. Run the experiments (base model + scenarios) from within Simio.
+## Project Overview
+
+Hospitals must balance fluctuating patient arrivals with limited inpatient and ICU capacity. This project builds a detailed simulation model to examine:
+
+- Patient arrival patterns and routing decisions  
+- Ward and ICU service-time distributions  
+- Queueing behavior and bed utilization  
+- Diversion thresholds under congestion  
+- Scenario comparisons across operating policies  
+
+Multiple experimental scenarios were run to evaluate how changes in capacity, thresholds, and demand affect throughput and waiting times.
+
+---
+
+### Files and Folders
+
+- **Hospital_Ward_ICU_Simulation_Report.pdf**  
+  Final written report describing assumptions, model structure, experiments, and findings.
+
+- **simio/hospital_flow_simio.spfx**  
+  The complete Simio project file. Download and open this file in Simio to run the model.
+
+- **simio/project-files/**  
+  Extracted project contents included for transparency and version control.
+
+---
+
+## Running the Model
+
+To explore the simulation:
+
+1. Install the Simio desktop application.
+2. Download `simio/hospital_flow_simio.spfx`.
+3. Open the file directly in Simio.
+4. Use the experiment panels to run scenarios and view results.
+
+Large experiment output files were excluded from the repository to keep it lightweight. Summary results are provided in the report.
+
+---
+
+## Methods and Techniques
+
+- Discrete-event simulation  
+- Queueing analysis  
+- Scenario experimentation  
+- Capacity planning  
+- Diversion-threshold evaluation  
+- Healthcare operations modeling  
+
+---
+
+## Tools
+
+- Simio  
+- Statistical distribution fitting  
+- Scenario-based experimentation  
+
+---
 
 ## Notes
-- This repo is primarily intended as a **portfolio artifact**. If you don’t have Simio, you can still read the full methodology and results in the PDF report.
+
+This repository is intended as a portfolio artifact demonstrating applied simulation modeling a
